@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background: url("./gratisography-heavenly-free-stock-photo-1170x775.jpg")
+    no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+.container h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+}
+
+.container p {
+  font-size: 18px blod;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  width: 55px;
+  height: 55px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  transition: 0.3s;
+}
+
+.social-icons a img {
+  width: 28px;
+  height: 28px;
+}
+
+.social-icons a:hover {
+  background: rgb(255, 255, 255);
+  transform: scale(1.1);
+}
+
+.container1 {
+  margin-top: 30px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.container1 a {
+  color: white;
+  margin: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.container1 a:hover {
+  color: #004cff;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#about {
+  padding: 80px 20px;
+  color: black;
+  font-size: 20px;
+}
+
+p {
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+#ppd {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.pbox {
+  max-width: 800px;
+  max-height: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.395);
+  border-radius: 15px;
+  box-shadow: 10px;
+  overflow-y: auto;
+}
+.project {
+  display: grid;
+  grid-template-columns: repeat(2, 320px);
+  gap: 25px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  width: 320px;
+}
+.card img {
+  width: 100%;
+  height: 160px;
+}
+
+.card p {
+  margin: 15px;
+  font-size: 18px;
+  color: #000;
+}
+
+.skillis {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+.skill {
+  background: rgba(122, 26, 26, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 180px;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.skill a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.skill a:hover img {
+  transform: scale(1.1);
+}
+
+.skill p {
+  font-weight: bold;
+  margin: 0;
+}
+
+#contact {
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #004cff;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #002bb5;
+}
+
+.back-bottom {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.back {
+  display: inline-block;
+  background: linear-gradient(135deg, #4a90e2, #357abd);
+  color: white;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.back:hover {
+  background: linear-gradient(135deg, #357abd, #2c5aa0);
+  transform: scale(1.05);
+}
+
+footer {
+  color: #000000;
+  margin: 20px;
+  text-align: center;
+}
+
+@media (max-width: 908px) {
+  .project {
+    grid-template-columns: 1fr;
+  }
+  .project a {
+    display: block;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .skill img {
+    width: 80px;
+    margin: auto;
+  }
+}
